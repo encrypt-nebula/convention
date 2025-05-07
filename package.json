@@ -1,6 +1,6 @@
 {
     "name": "abc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -9,12 +9,16 @@
     "author": "Harsh",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "release": "standard-version"
     },
     "keywords": [],
     "bugs": {
         "url": "https://github.com/encrypt-nebula/convention/issues"
     },
     "homepage": "https://github.com/encrypt-nebula/convention#readme",
-    "description": ""
+    "description": "",
+    "devDependencies": {
+        "standard-version": "^9.5.0"
+    }
 }
