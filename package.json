@@ -2,10 +2,19 @@
     "name": "abc",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/encrypt-nebula/convention.git"
+    },
     "author": "Harsh",
     "license": "MIT",
     "scripts": {
         "start": "node index.js"
-    }
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/encrypt-nebula/convention/issues"
+    },
+    "homepage": "https://github.com/encrypt-nebula/convention#readme",
+    "description": ""
 }
